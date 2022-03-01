@@ -1,0 +1,98 @@
+.services
+    padding: 6.25rem 23.4rem
+    background-color: $White
+    &__menu
+        display: flex
+        align-items: center
+        height: 6.81rem
+        width: 47rem
+        background:  url('../img/Services.png') no-repeat center
+        margin-bottom: 4.93rem
+    &__title
+        color: $Reds
+        font-size: 3rem
+.card
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    flex-basis: 25%
+    &__menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__title
+        color: $Reds
+        margin-top: 1.25rem
+        margin-bottom: 1.25rem
+    &__text
+        color: $Gray
+        margin-bottom: 1.25rem
+    &__link
+        position: relative
+        color: $black
+        font-weight: bold
+        text-decoration: none
+        &::after
+            position: absolute
+            background: url('../img/favicon.ico') no-repeat center
+            top: 0
+            right: 0
+    &__list
+        display: flex
+        flex-direction: column
+        flex-basis: 25%
+        background-color: $Reds
+        color: $White
+        padding: 2.075rem
+        &-item
+            display: flex
+            width: 210px
+            height: 50px
+            align-items: center
+            margin-top: 2.43rem
+    &__top
+        position: relative
+        margin-bottom: 1.875rem
+        padding-bottom: 1.875rem
+        &::after
+            content: ''
+            width: 80px
+            height: 2px
+            background-color: $Yellow
+            position: absolute
+            bottom: 0
+            left: 0
+.list
+    &-item
+        background: rgba(157, 0, 0, 1)
+        padding: 13px 46px 
+    &__top
+        
+        font-weight: bold
+        padding-bottom: 1.875rem
+    &__bottom
+        font-weight: normal
+.button__item
+    width: 50px
+    height: 50px
+    background-color: $Yellow
+    border: none
+    &-link
+        max-width: 150px
+        padding: 1.25rem 0
+        margin-top: 1.25rem
+        text-transform: uppercase
+        font-weight: bold
+        display: flex
+        justify-content: center
+        align-items: center
+        color: $Reds
+        background-color: $Yellow
+        border-radius: 50px
+        border: none
+        &:hover
+            filter: drop-shadow(0 5px 15px $Yellow)
+            transition: all .3s
+    
+
+        
